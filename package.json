@@ -1,0 +1,17 @@
+{
+  "name": "hw01-start",
+  "version": "1.0.0",
+  "description": "Крок 1\r Ініціалізуй проєкт за допомогою команди npm init\r В корені проєкту створи файл index.js\r Встанови пакет nodemon як залежність розробки (devDependencies)\r В файлі package.json додай \"скрипти\" для запуску index.js\r Скрипт start, який запускає index.js за допомогою node\r Скрипт dev, який запускає index.js за допомогою nodemon\r Крок 2\r У корені проєкту створи папку db. Для зберігання контактів завантаж і використовуй файл contacts.json, поклавши його в папку db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
