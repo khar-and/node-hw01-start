@@ -34,13 +34,3 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 };
 
 invokeAction(argv);
-
-// invokeAction({ action: "getById", id: "e6ywwRe4jcqxXfCZOj_1e" });
-// invokeAction({
-//   action: "add",
-//   name: "Andrey Kharchenko",
-//   email: "kh.andrew16@gmail.com",
-//   phone: "(044) 565-2456",
-// });
-
-// invokeAction({ action: "deleteById", id: "IwsQZD41rAPLsLxLydBCk" });
